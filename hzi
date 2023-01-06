@@ -1,0 +1,8 @@
+email=input()
+phno=list(map(int,input()))
+m=int(phno[0])
+if email.endswitch('@gmail.com') or email.endswitch('@yahoo.com'):
+	if(len(phno)==10) and (phno[0]>5):
+		print('Registration successful')
+else:
+	print('Check your details')
